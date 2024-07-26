@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+        <link rel="stylesheet" type="text/css" href="styles/base.css">
+        <link rel="stylesheet" type="text/css" href="styles/drum-shuffle.css">
+        <link rel="stylesheet" type="text/css" href="build/styles/cube.css">
+        <link rel="icon" type="image/png" href="build/media/cuber-favicon-0064x0064.png">
+        <link rel="apple-touch-icon" href="build/media/cuber-favicon-0144x0144.png">
+        <link rel="canonical" href="DJ & 魔方" />
+        <title>DJ & 魔方</title>
+        <meta property="og:image" content="images/bg_808-cube.jpg"/>
+        <meta property="og:url" content="DJ & 魔方">
+        <!--  Vendor -->
+        <script charset="utf-8" src="third-party/modernizr.custom.61568.js"></script>
+        <script charset="utf-8" src="third-party/underscore-min.js"></script>
+        <script charset="utf-8" src="third-party/socialite.min.js"></script>
+        <script charset="utf-8" src="third-party/fpsmeter.min.js"></script>
+        <script charset="utf-8" src="third-party/recorder.js"></script>
+        <script charset="utf-8" src="third-party/tween.min.js"></script>
+        <script type="text/javascript">window.underscore = _.noConflict()</script>
+        <script src="build/cuber.js"></script>
+        <script charset="utf-8" src="scripts/DrumTrack.js"></script>
+        <script charset="utf-8" src="scripts/DrumSequencer.js"></script>
+        <script charset="utf-8" src="scripts/main.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            <div class="notification" id="secret-feature-1">
+				欢迎使用 DJ & 魔方
+                <span class="close-button">X</span>
+            </div>
+            <div class="scrolling-gradient">
+                <canvas class="overlay"></canvas>
+            </div>
+            <div id="container"></div>
+            <div class="info-button"></div>
+            <div id="about">
+                <div class="close-button"></div>
+                <div class="content">
+                    <h2>关于我们</h2>
+					<p>联系方式：747396522@qq.com</p>
+					<h2>使用说明</h2>
+					<p>一、在魔方外部按住左键拖动鼠标即可旋转魔方</p>
+					<p>二、点击魔方的方块即可激活声音，每一面魔方的声音都不一样，且每一面魔方中间都可以调节不同的声音</p>
+					<p>三、暂时无法保存已经编辑好的节奏</p>
+                </div>
+            </div>
+            <div id="nav">
+                <div class="wrapper">
+                    <div class="logo"></div>
+                    <ul class="controls">
+                        <li class="play-button"></li>
+                        <li class="shuffle-button"></li>
+                        <li class="tap-button"></li>
+                        <li class="reset-button"></li>
+                        <li class="variation-button"></li>
+                        <li class="tempo-slider">
+                            <div class="track">
+                                <div class="handle"></div>
+                            </div>
+                            <span class="bpm">120</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="sample-buckets">
+                <div class="buckets">
+                    <div class="bucket bassdrum" data-face-name="front" >
+                        <span>BassDrum</span>
+                    </div>
+                    <div class="bucket snaredrum" data-face-name="up">
+                        <span>SnareDrum</span>
+                    </div>
+                    <div class="bucket percussion" data-face-name="right">
+                        <span>Percussion</span>
+                    </div>
+                    <div class="bucket hihat" data-face-name="down">
+                        <span>HiHat</span>
+                    </div>
+                    <div class="bucket cymbal" data-face-name="left">
+                        <span>Cymbal</span>
+                    </div>
+                    <div class="bucket cowbell" data-face-name="back">
+                        <span>CowBell</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

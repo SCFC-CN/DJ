@@ -1,0 +1,22 @@
+{
+	"description" : "DJ & 魔方 By:萌萌哒的蓝莓味御姐\n\n感受自主创作的乐趣吧~\n\nv1.0\n  - 初始版本\n  - 欢迎使用\n  - 在打开应用后一段时间返回桌面魔方速度回很快(仅在视觉上),不影响使用过几秒钟就恢复了.\n\nv1,1\n  - 添加使用说明(点击右上角的按钮即可)",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"title" : "DJ & 魔方 v1.1",
+	"type" : "web",
+	"visibility" : "public",
+	"workshopid" : 823662092
+}
